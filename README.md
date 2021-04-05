@@ -5,9 +5,9 @@
 
 ################### Fotos de los Ejercicios ##################
 
-![Ej1](Imagenes_Ejecicios/Ej1.png)
-![Ej2](Imagenes_Ejecicios/Ej2.png)
-![Ej3](Imagenes_Ejecicios/Ej3.png)
-![Ej4](Imagenes_Ejecicios/Ej4.png)
-![Ej5](Imagenes_Ejecicios/Ej5.png)
-![Ej6](Imagenes_Ejecicios/Ej6.png)
+![Ej1](Imagenes_Ejecicios_Sesion3/Ej1.png)
+![Ej2](Imagenes_Ejecicios_Sesion3/Ej2.png)
+![Ej3](Imagenes_Ejecicios_Sesion3/Ej3.png)
+![Ej4](Imagenes_Ejecicios_Sesion3/Ej4.png)
+![Ej5](Imagenes_Ejecicios_Sesion3/Ej5.png)
+![Ej6](Imagenes_Ejecicios_Sesion3/Ej6.png)
