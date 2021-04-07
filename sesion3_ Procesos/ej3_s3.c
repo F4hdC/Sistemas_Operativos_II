@@ -32,7 +32,7 @@ int main(int argc, char** argv){
 					}else if(hijos[i] == -1){
 						fprintf(stderr, "Error al crear el hijo %d\n",i);
 					}else{
-						waitpid(pid[i],&status,0);
+						waitpid(hijos[i],&status,0);
 						if(WIFEXITED(status))
 							if(WEXITSTATUS(status))
 								printf("El hijo número %d con PID=%d ha terminado con estado %d\n",i,hijos[i],WEXITSTATUS(status));

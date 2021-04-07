@@ -12,7 +12,7 @@ int main(int argc, char** argv){
 
 	int S,A,T;
 
-	if(argc<3){
+	if(argc<2){
 	fprintf(stderr, "/Ejec: Intento de ejecución sin usar el monitor. No se puede continuar.\n");	
 	return 254;	
 	}

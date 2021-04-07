@@ -17,7 +17,7 @@ int main(int argc, char** argv){
 	char *ptrP;
 	char *ptrS;
 	int pid[50];
-	//char *argumentos[2];
+	char *argumentos[3];
 
 	if(argc == 1){
 		P=1;
@@ -74,13 +74,15 @@ int main(int argc, char** argv){
 
 
 				// int execve(const char *filename, char *const argv[], char *const envp[]);
-				//argumentos[0] = (char*)malloc(4);
-				//argumentos[1] = (char*)malloc(4);
+				argumentos[0] = malloc(8);
+				argumentos[1] = malloc(8);
+				argumentos[2] = NULL;
+
 
 				
-				sprintf(argv[0],"%d",S);
-				sprintf(argv[1],"%d",A);
-				if(execv("ejecutor",argv) == -1){
+				sprintf(argumentos[0],"%d",S);
+				sprintf(argumentos[1],"%d",A);
+				if(execv("ejecutor",argumentos) == -1){
 					perror(" ");
 					return 255;
 				}
